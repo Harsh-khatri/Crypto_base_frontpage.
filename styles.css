@@ -163,3 +163,20 @@ html{
     transition: ease-in 0.20s ;
 
 }
+.content > h2,h3{
+    margin-bottom: 10px;
+}
+.content > p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content > a{
+    position:absolute;
+    bottom: 30px;
+    padding: 0.5em;    
+}
+.content > a:hover{
+    color: whitesmoke;
+    border: 1px solid black;
+    background-color:black ;
+}
