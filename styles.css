@@ -203,6 +203,50 @@ a:link{
     color: black;
     text-decoration: none;
 }
+.four{
+    background-color: #8d99ae;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 75vh;
+    
+
+}
+
+.logo_img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #aaa;
+    background-color: honeydew;
+    
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+}
+.tags{
+    margin-left: 100px;
+    margin-top: 50px;
+    border-top: 1px solid #fefae0;
+    padding: 30px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.caption{
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: 28px;
+    border-top: 1px solid #fefae0;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+}
 @media screen and (max-width: 768px) {
     #h1{
         font-size: 36px;
